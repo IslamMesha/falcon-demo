@@ -6,3 +6,10 @@ quotes = [
     'Software',
     'Developer',
 ]
+
+authors = [
+    'Islam',
+    'Muhammad',
+    'Mesha',
+    'Mostafa',
+]

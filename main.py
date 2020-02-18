@@ -3,7 +3,7 @@ import random
 
 import falcon
 
-from quotes import quotes
+from quotes import quotes, authors
 
 
 class QuoteResource:
@@ -12,7 +12,7 @@ class QuoteResource:
         print('Request: ', req.method)
         quote = {
             'quote': random.choice(quotes),
-            'author': 'Islam Mesha'
+            'author': random.choice(authors)
         }
         resp.body = json.dumps(quote)
 
